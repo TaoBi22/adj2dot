@@ -11,7 +11,7 @@ else:
 
         doneEdges = []
 
-        rep = "graph graphname {"
+        rep = "graph graphname {\n"
 
         for i, row in enumerate(mat):
             for j, val in enumerate(row):
